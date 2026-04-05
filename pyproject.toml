@@ -1,0 +1,28 @@
+[project]
+name = "cursor-gaze"
+version = "0.1.0"
+description = "Real-time eye gaze redirection for video communication."
+authors = [
+    {name = "Sahil Bhoite", email = "work.sahilbhoite@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tensorflow-macos (>=2.16.0,<3.0.0)",
+    "dlib (>=19.24.8,<20.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "pyobjc (>=11.0,<12.0)",
+    "mediapipe (>=0.10.32,<0.11.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+

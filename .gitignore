@@ -1,0 +1,28 @@
+# Heavy data: stored on the cloud for efficient development
+weights/
+lm_feat/
+models/
+lm_feat.zip
+weights.zip
+
+**/__pycache__/
+
+# User settings database
+user_settings.db
+
+# Virtual Environment (Heavy dependencies)
+venv/
+.venv/
+env/
+
+# OS Files
+.DS_Store
+
+# Generated Models (CoreML, TFLite, SavedModel)
+*.mlpackage
+*.tflite
+saved_model_*/
+
+# IDE settings
+.vscode/
+.idea/
